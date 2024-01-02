@@ -1,0 +1,60 @@
+*{
+    font-family: 'Roboto';
+    color: white;
+}
+.wrapper{
+    background-color: #1f2937; 
+    padding: 0 200px 0 200px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 0 200px;
+}
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
+}
+.subheader article{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subheader .image{
+    padding: 0 0 20px 20px;
+}
+
+.navigation a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #3882F6;
+}
+.content h1{
+    color: #1f2937;
+    text-align: center;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-evenly;
+}
+.quote{
+    padding: 50px 0 50px 0;
+    background-color: #e5e7eb;
+    text-align: center;
+
+}
+.quotetext{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:lighter;
+}
+.author{
+    color: #1f2937;
+    font-weight: bolder ;
+}
+
