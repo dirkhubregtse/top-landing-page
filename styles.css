@@ -2,6 +2,7 @@
     font-family: 'Roboto';
     color: white;
 }
+
 .wrapper{
     background-color: #1f2937; 
     padding: 0 200px 0 200px;
@@ -24,6 +25,9 @@ header{
 .subheader .image{
     padding: 0 0 20px 20px;
 }
+.subheader h1{
+    font-size: 48px;
+}
 
 .navigation{
     display: flex;
@@ -36,8 +40,11 @@ header{
 button{
     background-color: #3882F6;
     border-radius: 5px;
-    border: 1px solid white;
+
+    width: 150px;
+    height: 50px;
 }
+
 .content{
     display: flex;
     align-items: center;
@@ -77,16 +84,37 @@ button{
 }
 .author{
     color: #1f2937;
-    font-weight: bolder ;
+    font-weight: lighter ;
 }
 .action{
     background-color: #3882F6;
-    width: 1000px;
+    width: 800px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 5px;
     margin: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action .left{
+    text-align: left;
+}
+.action .right{
+    text-align: left;
 }
 .action h3{
     color: white;
 }
-
+.action button{
+    border: 1px solid white;
+}
+footer{
+    background-color: #1f2937; 
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    
+}
